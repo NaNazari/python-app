@@ -19,7 +19,7 @@ param location string
 //      "value": "myGroupName"
 // }
 param resourceGroupName string = ''
-param appServiceName string = ''
+param appServiceName string = 'app-helijo'
 param appServicePlanName string = ''
 
 var abbrs = loadJsonContent('./abbreviations.json')
